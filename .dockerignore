@@ -1,0 +1,79 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Env
+.env
+.env.docker
+
+# Tests (не нужны в образе)
+tests/
+.pytest_cache/
+
+# README
+README.md
+
+# GitHub
+.github/@"
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Env
+.env
+.env.docker
+
+# Tests
+tests/
+.pytest_cache/
+
+# README
+README.md
+
+# GitHub
+.github/
+"@ | Out-File -FilePath ".dockerignore" -Encoding utf8
